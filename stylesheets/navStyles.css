@@ -1,0 +1,21 @@
+.bigger-brand {
+  font-size: 2.5rem;
+}
+.nav-link-adjust:hover {
+      text-decoration: none;
+}
+.navbar .nav-item .nav-link {
+  display: flex;
+}
+.dropdown-toggle::after {
+margin-top: 15px;
+}
+.nav-item:hover {
+background-color: #ececec;
+transition: 0.3s;
+border-radius: 5px;
+}
+.nav-item {
+transition: 0.3s;
+cursor: pointer;
+}
