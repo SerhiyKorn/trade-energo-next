@@ -56,6 +56,7 @@ export const TextBlockStyles = styled.div`
   .para-styled {
     font-size: 18px;
     font-weight: 350;
+    text-align: justify;
   }
 `
 export const MapStyles = styled.div`
