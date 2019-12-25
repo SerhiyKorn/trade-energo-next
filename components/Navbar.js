@@ -27,7 +27,7 @@ const Navbar = () => {
       <MDBNavbar light color="white" expand="lg" className="p-4">
         <MDBNavbarBrand>
           <h2 className="font-weight-bold h2-responsive">
-            Трейд Енерго Ресурс
+            Трейденергоресурс
           </h2>
         </MDBNavbarBrand>
         <MDBNavbarToggler onClick={toggleCollapse} />

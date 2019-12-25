@@ -13,7 +13,7 @@ const Footer = () => {
         <MDBRow className="mt-3 d-flex justify-content-around">
           <MDBCol md="3" lg="4" xl="3" className="mb-4">
             <h6 className="text-uppercase font-weight-bold">
-              <strong>Трейд Енерго Ресурс</strong>
+              <strong>Трейденергоресурс</strong>
             </h6>
             <hr
               className="blue-grey darken-4 accent-2 mb-4 mt-0 d-inline-block mx-auto"
@@ -46,7 +46,7 @@ const Footer = () => {
       <div className="footer-copyright text-center py-2">
         <MDBContainer fluid>
           &copy; {new Date().getFullYear()} Copyright{" by "}
-          <a href=""> Trade Energy Resources </a>
+          <a href=""> Tradeenergoresource </a>
         </MDBContainer>
       </div>
     </MDBFooter>
