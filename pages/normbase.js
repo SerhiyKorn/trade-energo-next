@@ -13,7 +13,9 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import 'bootstrap-css-only/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css';
 import Jumbo from '../components/Jumbo';
-import Footer from '../components/Footer'
+import Footer from '../components/Footer';
+// import { poryadok } from "../public/poryadok.pdf";
+import {Document, Page} from 'react-pdf';
 const NormBase = () => {
   const [collapseID, setCollapseID] = useState("collapse1");
 
@@ -54,13 +56,13 @@ const NormBase = () => {
                 <ul>
                   {elem.list.map((service, i) => (
                     <li key={i}>
-                      <a
+                      {service.link === "poryadok" ? <Link href={service.link}>{service.name}</Link> :<a
                         target="_blank"
                         rel="noopener noreferrer"
                         href={service.link}
                       >
                         {service.name}
-                      </a>
+                      </a>}
                     </li>
                   ))}
                 </ul>

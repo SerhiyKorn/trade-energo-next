@@ -28,13 +28,13 @@ const Contacts = () => {
               <strong>Наші дані</strong>
             </h4>
             <h3>
-              <i className="fa fa-home mr-3" /> Київ, Україна
+              <i className="fa fa-home mr-3" /> 02192, м. Київ, Бульвар Дарницкий 8а
             </h3>
             <h3>
-              <i className="fa fa-envelope mr-3" /> office@email.org.ua
+              <i className="fa fa-envelope mr-3" /> office.tradeenergo@gmail.com
             </h3>
             <h3>
-              <i className="fa fa-phone mr-3" /> +38 0234 322-222
+              <i className="fa fa-phone mr-3" /> +38 0504 330-532
             </h3>
           </div>
           <hr></hr>

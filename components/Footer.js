@@ -23,7 +23,7 @@ const Footer = () => {
             Постачальник електричної енергії для непобутових споживачів по всій Україні.
             </p>
           </MDBCol>
-          <MDBCol md="4" lg="3" xl="3" className="mb-4">
+          <MDBCol md="4" lg="3" xl="5" className="mb-4">
             <h6 className="text-uppercase font-weight-bold">
               <strong>Контакти</strong>
             </h6>
@@ -32,13 +32,13 @@ const Footer = () => {
               style={{ width: "60px" }}
             />
             <p>
-              <i className="fa fa-home mr-3" /> Київ, Україна
+            <i className="fa fa-home mr-3" /> 02192, м. Київ, Бульвар Дарницкий 8а
             </p>
             <p>
-              <i className="fa fa-envelope mr-3" /> office@email.org.ua
+            <i className="fa fa-envelope mr-3" /> office.tradeenergo@gmail.com
             </p>
             <p>
-              <i className="fa fa-phone mr-3" /> +38 0234 322-222
+            <i className="fa fa-phone mr-3" /> +38 0504 330-532
             </p>
           </MDBCol>
         </MDBRow>
@@ -46,7 +46,7 @@ const Footer = () => {
       <div className="footer-copyright text-center py-2">
         <MDBContainer fluid>
           &copy; {new Date().getFullYear()} Copyright{" by "}
-          <a href=""> Trade Energo Resource </a>
+          <a href=""> Trade Energy Resources </a>
         </MDBContainer>
       </div>
     </MDBFooter>
