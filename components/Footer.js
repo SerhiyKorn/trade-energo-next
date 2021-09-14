@@ -32,13 +32,13 @@ const Footer = () => {
               style={{ width: "60px" }}
             />
             <p>
-            <i className="fa fa-home mr-3" /> 02192, м. Київ, Бульвар Дарницкий 8а
+            <i className="fa fa-home mr-3" /> 02094,м.Київ, Дніпровський р-н, вулиця Івана Сергієнка, будинок 18, офіс 14/1
             </p>
             <p>
             <i className="fa fa-envelope mr-3" /> office.tradeenergo@gmail.com
             </p>
             <p>
-            <i className="fa fa-phone mr-3" /> +38 0504 330-532
+            <i className="fa fa-phone mr-3" /> +38(050)0208503
             </p>
           </MDBCol>
         </MDBRow>
